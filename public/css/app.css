@@ -1,3 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  color: #58402C;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header {
   height: 75px;
 }
@@ -46,28 +68,6 @@ header #container-header #navbar ul li button:hover {
   cursor: pointer;
   background-color: #30488F;
   color: white;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-body {
-  color: #58402C;
-}
-
-.container {
-  width: 1170px;
-  margin: 0 auto;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 #firstSection {
